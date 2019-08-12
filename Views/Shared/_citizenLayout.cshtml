@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+@{
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="~/css/resize.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container columns-90">
+        <h3 class="citizen-hd">Thông tin hộ gia đình</h3>
+        <br />
+        <div class="row columns-90 ml-auto mr-auto">
+            <div class="columns-10 float-left"><p class="bullet-txt">Chủ hộ</p></div>
+            <div class="columns-70"><input class="input columns-30 border-dark" /></div>
+        </div>
+        <div class="row clr-b columns-90 ml-auto mr-auto">
+            <div class="columns-10 float-left"><p class="bullet-txt">Địa chỉ</p></div>
+            <div class="columns-90"><input class="input columns-90 border-dark" /></div>
+        </div>
+    </div>
+     <content>
+        @RenderBody()
+    </content>
+</body>
+</html>

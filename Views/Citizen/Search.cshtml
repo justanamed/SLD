@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_citizenLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormListFam</title>
+    <link href="~/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        * {
+            color: black !important;
+            text-decoration: none !important;
+        }
+
+
+
+        .box {
+            display: block !important;
+        }
+
+        hr {
+            border: 2px solid black;
+        }
+
+        .tb {
+            width: 1166px;
+            margin-right: auto;
+            margin-left: auto;
+            border: 2px solid black;
+        }
+
+        td {
+            border-right: 1px solid black;
+            width: auto;
+        }
+
+        input {
+            border: 2px solid black;
+        }
+
+        .btn-sub {
+            position: absolute;
+            display: block;
+            right: 100px;
+            background-color: white;
+            box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        }
+    </style>
+</head>
+<body>
+    <content class="container body-search">
+        <input type="button" value="Thêm mới thành viên" class="btn-sub" />
+        <div class="r-media">
+            <table class="tb mt-5 table-striped table-bordered">
+                <tr class="tb-r">
+                    <th width="20%">Họ tên thành viên</th>
+                    <th width="10%">Quan hệ</th>
+                    <th width="10%">Giới tính</th>
+                    <th width="10%">Năm sinh</th>
+                    <th width="10%">CMND</th>
+                    <th width="10%">SĐT </th>
+                    <th width="10%"></th>
+                </tr>
+                <tr class="tb-r">
+                    <td></td>
+                    <td>Quan hệ</td>
+                    <td>Giới tính</td>
+                    <td>Năm sinh</td>
+                    <td>CMND</td>
+                    <td>SĐT </td>
+                    <td>nothing</td>
+                </tr>
+            </table>
+        </div>
+    </content>
+</body>
+</html>

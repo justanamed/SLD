@@ -1,0 +1,165 @@
+﻿@media only screen and (max-width: 800px){
+    .columns-20 {
+        width: 100% !important;
+    }
+
+    .columns-30 {
+        width: 100% !important;
+    }
+
+    .columns-40 {
+        width: 100% !important;
+    }
+
+    .columns-50 {
+        width: 100% !important;
+    }
+
+    .columns-60 {
+        width: 100% !important;
+    }
+
+    .columns-70 {
+        width: 100% !important;
+    }
+
+    .columns-80 {
+        width: 100% !important;
+    }
+
+    .columns-90 {
+        width: 100% !important;
+    }
+
+    .columns-10 {
+        width: 100% !important;
+    }
+    .logo{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        clear: both !important;
+        display: block;
+    }
+    .title{
+        width: 100% !important;
+        font-size:10pt !important;
+        text-align: center;
+        clear:both !important;
+    }
+    .sub-title{
+        clear:both !important;
+        text-align: center;
+        font-size: 9pt !important;
+        clear:both !important;
+    }
+    .float-left{
+        clear: both !important; 
+    }
+    .insert-box {
+        width: 100% !important;
+    }
+
+    .td {
+        width: 100% !important;
+    }
+
+    .logo {
+        width: 70px !important;
+        height: 70px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        display: block !important;
+        font-size: 1.5em !important;
+        margin-left: 3.5% !important;
+        margin-top: -25px !important
+    }
+
+    .boxtxt {
+        font-size: 8pt !important;
+        margin-top: 50px !important;
+    }
+
+    .btn-download {
+        width: 10% !important;
+        font-size: 8pt !important
+    }
+
+    .tb {
+        font-size: 8pt;
+        width: 100% !important;
+    }
+    row {
+        margin-left: 0 !important;
+    }
+    .btn-sub {
+        font-size: 8pt;
+        right: 3.5% !important;
+    }
+
+    .frm-log {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 80% !important;
+    }
+
+    .btn-log {
+        width: 150px !important;
+        font-size: 8pt !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        right: auto !important;
+        left: auto !important;
+    }
+
+    #title-log {
+        width: auto !important;
+        margin-top: 0px !important;
+        font-size: 24pt !important;
+        margin-left: 26% !important;
+    }
+    .ft{
+        font-size: 9pt !important;
+    }
+    .input{
+        width: 100% !important;
+    }
+    .ml-out {
+        margin-left: 0 !important;
+    }
+    .Add-title {
+        margin-left: 10px !important;
+        font-size: 12pt;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline !important;
+    }
+    .size-lg {
+        width: 100% !important;
+    }
+    .size-md {
+        width: 100% !important;
+    }
+    .form-control {
+        padding: 0!important;
+    }
+    .row{
+        width: 100% !important;
+    }
+    .citizen-hd {
+        margin-left: 10px !important;
+        font-size: 12pt;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline !important;
+    }
+    .bullet-text {
+        margin-left: -10px !important;
+        font-size: 12pt;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline !important;
+    }
+}

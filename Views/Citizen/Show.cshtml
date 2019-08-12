@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewData["Title"] = "Show";
+    Layout = "~/Views/Shared/_mainLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormListFam</title>
+    <link href="~/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Layout.css" rel="stylesheet" />
+    <style>
+        * {
+            color: black !important;
+            text-decoration: none !important;
+        }
+
+
+        .box {
+            display: block !important;
+        }
+
+        hr {
+            border: 2px solid black;
+        }
+
+        table {
+            width: 1166px;
+            margin-right: auto;
+            margin-left: auto;
+            border: 2px solid black;
+        }
+
+        tb, th {
+            border-right: 1px solid black !important;
+        }
+
+        .btn-download {
+            display: inline-block;
+            width: 65px;
+            color: black;
+            font-size: 19px;
+            text-align: center;
+            line-height: 25px;
+            border: 2px solid black;
+            box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        }
+    </style>
+</head>
+<body>
+    <content>
+        <div class="container boxtxt">
+            <p><h2><span>Dữ liệu danh sách hộ gia đình năm 2019: </span><a class="btn-download " href="#">Tải về</a></h2></p>
+            <p><h2 class="mt-5">Danh sách hộ gia đình:</h2></p>
+        </div>
+        <table class="tb table-striped">
+            <tr>
+                <th width="20%">Họ tên thành viên</th>
+                <th width="20%">Địa chỉ</th>
+                <th width="10%">Giới tính</th>
+                <th width="10%">Năm sinh</th>
+                <th width="10%">CMND</th>
+                <th width="10%">SĐT</th>
+                <th width="10%"></th>
+            </tr>
+            
+        </table>
+    </content>
+</body>
+</html>
